@@ -1,0 +1,37 @@
+h3{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.ban{
+    max-width: 290px;
+    margin-left: 30px;
+    border-style:solid;
+    border-color: black;
+}
+#tenban{
+    margin-left: 50px;
+
+}
+#tenban2{
+    margin-left: 110px;
+}
+#tenban3{
+    margin-left: 110px;
+}
+#tenban4{
+    margin-left: 100px;
+}
+#giaban1{
+    margin-left: 110px
+}
+#giaban2{
+    margin-left: 210px
+}
+#giaban3{
+    margin-left: 210px
+}
+#giaban4{
+    margin-left: 205px
+}

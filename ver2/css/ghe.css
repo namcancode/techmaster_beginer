@@ -1,0 +1,39 @@
+h2{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.ghe{
+    max-width: 290px;
+    margin-left: 30px;
+    border-style:solid;
+    border-color: black;
+}
+
+.tenghe {
+    margin-left: 75px;
+}
+
+.tenghe2 {
+    margin-left: 105px;
+}
+#giaghe1{
+    margin-left: 135px
+}
+#giaghe2{
+    margin-left: 184px
+}
+#giaghe3{
+    margin-left: 210px
+}
+#giaghe4{
+    margin-left: 214px
+}
+.VND::after {
+    content: " VNĐ"
+}
+
+.VND {
+    color: red;
+}
