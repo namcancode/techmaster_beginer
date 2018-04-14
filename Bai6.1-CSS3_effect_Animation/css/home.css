@@ -3,11 +3,9 @@
     height: 70%;
     transition: all .3s linear;
     border: #333 1px solid;
-    
 }
 
 .sp:hover img {
-   
     opacity: 0.8;
     transform: scale(1.15);
 }
@@ -20,18 +18,16 @@
     float: left;
     overflow: hidden;
     border: #333 solid 1px;
-    
-    
 }
 
-.name{
+.name {
     bottom: 50px;
     left: 50px;
-   
 }
+
 .tenghe {
     font-size: 18px;
-    padding:15px 0px 25px 0px;
+    padding: 15px 0px 25px 0px;
     font-weight: bold;
 }
 
@@ -83,11 +79,12 @@
         opacity: 0;
     }
 }
-@keyframes key2{
+
+@keyframes key2 {
     0% {
         opacity: 0;
     }
-    30%{
+    30% {
         opacity: 1;
     }
     70% {
@@ -97,13 +94,14 @@
         opacity: 0;
     }
 }
-body{
+
+body {
     animation: key2 20s infinite;
-} 
+}
+
 .backtotop {
     animation: key1 5s infinite;
     text-align: right;
-    
 }
 
 .sub1 {
