@@ -3,6 +3,66 @@ body {
     color: #333;
     background-color: rgb(221, 221, 221);
 }
+.call {
+    background-color: #1990ff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 300px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    animation: callme 1s infinite;  
+}
+.call2{
+    border: 1px #84c0f4 solid;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    animation: callme2 1s infinite;
+    z-index: 1;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+    background-color: #84c0f4;
+}
+.call .call1 {
+    padding: 18% 0% 0 22%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height:25px;
+    font-size: 25px;
+    color: #fff;
+    
+
+   
+}
+@keyframes callme2 {
+    0% {
+        transform: scale(1.1);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+@keyframes callme {
+    10%{
+        transform: rotatez(-30deg)
+    }
+    20%{
+        transform: rotatez(15deg)
+    }
+    35%{
+        transform: rotatez(-30deg)
+    }
+    60%{
+        transform: rotatez(0deg)
+    }
+}
 
 /* ==Menu== */
 
@@ -269,7 +329,7 @@ body {
 }
 
 .sp .monan .gia a:hover {
-    color: #F4773C
+    color: #F4773C;
 }
 
 .sp .monan img {
@@ -483,6 +543,7 @@ body {
     height: 30%;
     color: #5E5E5E;
     margin: 3% 0% 0% 4%;
+
 }
 
 .footer .row ul li {
@@ -491,6 +552,8 @@ body {
 
 .footer .row2 ul li {
     padding: 10% 0% 0% 3%;
+    
+    
 }
 
 .footer .row3 ul li {
@@ -513,7 +576,17 @@ body {
 .footer .row2 ul span {
     width: 100px;
     color: #f1f1f1;
+    
     font-size: 22px;
+}
+.footer .row2 ul li a{
+    text-decoration: none;
+}
+.footer .row2 ul li :link{
+    color:#5E5E5E;
+}
+.footer .row2 ul li :hover{
+    color:#F4773C;
 }
 
 .footer .row3 ul span {
