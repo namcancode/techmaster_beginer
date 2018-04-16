@@ -3,6 +3,7 @@ body {
     color: #333;
     background-color: rgb(221, 221, 221);
 }
+
 .call {
     background-color: #1990ff;
     border-radius: 50%;
@@ -13,9 +14,10 @@ body {
     bottom: 5%;
     right: 5%;
     z-index: 2;
-    animation: callme 1s infinite;  
+    animation: callme 1s infinite;
 }
-.call2{
+
+.call2 {
     border: 1px #84c0f4 solid;
     width: 45px;
     height: 45px;
@@ -27,18 +29,17 @@ body {
     position: fixed;
     background-color: #84c0f4;
 }
+
 .call .call1 {
     padding: 18% 0% 0 22%;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    line-height:25px;
+    line-height: 25px;
     font-size: 25px;
     color: #fff;
-    
-
-   
 }
+
 @keyframes callme2 {
     0% {
         transform: scale(1.1);
@@ -49,17 +50,18 @@ body {
         opacity: 0;
     }
 }
+
 @keyframes callme {
-    10%{
+    10% {
         transform: rotatez(-30deg)
     }
-    20%{
+    20% {
         transform: rotatez(15deg)
     }
-    35%{
+    35% {
         transform: rotatez(-30deg)
     }
-    60%{
+    60% {
         transform: rotatez(0deg)
     }
 }
@@ -133,8 +135,6 @@ body {
     max-width: 100%;
 }
 
-
-
 .khoangcach {
     border-bottom: 1.3px dotted #333333;
     width: 60%;
@@ -145,79 +145,86 @@ body {
     margin-top: 15px;
 }
 
+.sp .an{
+    display: inline-table;
+    margin: 0% 0% 3% 5%;
+    
+}
 .sp .tensp p {
     font-size: 22px;
     color: #D40005;
     font-weight: bold;
     text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 1%;
+}
+
+.sp .tensp {
+    margin: 1% 0% 0% 48%;
 }
 
 .sp .tensp span {
     font-size: 18px;
     color: #333;
-    margin-left: 18%;
+    padding: 9% 0% 0% 0%;
+    display: inline-block;
 }
 
-.anh {
-    margin: 3% 5% 0 5%;
-}
 
 .sp .monan {
-    animation: key1 2s;
-    margin: 1% 1% 5% 1%;
-    float: left;
-    max-width: 23%;
-    max-height: 70%;
-    text-align: center;
+   
+    max-width: 37%;
     overflow: hidden;
-    background-color: #ffffff;
-    padding: 0px 0px 2.5% 0px;
-}
+    max-height: 50%;
+    margin: -5.6% 0% 0% -4%;
+    
 
-.sp .monan .gia a {
-    font-family: serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: #333333;
-    font-weight: bold;
 }
-
-.sp .monan .gia a:hover {
-    color: #F4773C;
-}
-
 .sp .monan img {
     width: 100%;
-    height: 60%;
-    margin-bottom: 10%;
+    height: 30%;
+    
     transition: all .3s linear;
-    border-bottom: dotted 2px rgb(175, 175, 175);
-}
 
+    
+}
+.sp {
+   
+    max-width: 60%;
+    margin: -10% 0% 0% 30%;
+   max-height: 60%;
+}
 .sp .monan img:hover {
     opacity: 0.8;
     transform: scale(1.15);
 }
-
-@keyframes key1 {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 0.5;
-    }
-    50% {
-        transform: translateX(70px);
-    }
-    70% {
-        opacity: 0.8;
-    }
-    100% {
-        opacity: 1;
-    }
+#ds{
+   
+    max-width: 20%;
+    max-height: 100%;
+    margin: 2% 0% 0% 1%;
+    list-style-type: none;
 }
+#ds p{
+    
+    background-color: #444444;
+    height: 6%;
+    padding: 0% 0% 0% 6%;
+    font-size: 18px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+#ds ul li{
+    margin: 5% 0% 5% 15%;
+    
+}
+#ds ul li a{
+    text-decoration: none;
+    color: #444444;
+}
+#ds ul li :hover{
+    color:#F4773C;
+}
+
 .boxa {
     position: relative;
     background-image: url("../img/hinh3.png");
@@ -227,29 +234,29 @@ body {
 
 .boxa .box1 dl {
     width: 40%;
-    margin: 0% 0% 0% 12%;
+    margin: 0% 0% 0% 15%;
     color: #f1f1f1;
 }
 
 .boxa .box1 dl dt {
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 22px;
-    margin: 12% 0% 3% 0%;
+    font-size: 30px;
+    margin: 10% 0% 5% 0%;
     display: inline-block;
 }
 
 .boxa .box2 img {
     position: absolute;
     top: -11%;
-    right: 13%;
+    right: 15%;
     MAX-WIDTH: 20%;
-
+    
 }
 
 .boxc {
     position: relative;
-    margin-top: 30%;
+    margin-top: 5%;
     background-image: url("../img/hinh3.png");
     background-color: #D40005;
     height: 35%;
@@ -257,15 +264,15 @@ body {
 
 .boxc .box1 dl {
     width: 40%;
-    margin: 0% 0% 0% 12%;
+    margin: 0% 0% 0% 15%;
     color: #f1f1f1;
 }
 
 .boxc .box1 dl dt {
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 22px;
-    margin: 5% 0% 3% 0%;
+    font-size: 30px;
+    margin: 10% 0% 5% 0%;
     display: inline-block;
 }
 
@@ -273,8 +280,9 @@ body {
     position: absolute;
     top: 12%;
     right: 20%;
+    box-shadow: -9px 10px 25px 4px;
+    width: 8%;
 }
-
 
 .footer {
     background-color: #222222;
@@ -289,7 +297,6 @@ body {
     height: 30%;
     color: #5E5E5E;
     margin: 3% 0% 0% 4%;
-
 }
 
 .footer .row ul li {
@@ -298,8 +305,6 @@ body {
 
 .footer .row2 ul li {
     padding: 10% 0% 0% 3%;
-    
-    
 }
 
 .footer .row3 ul li {
@@ -324,15 +329,18 @@ body {
     color: #f1f1f1;
     font-size: 22px;
 }
-.footer .row2 ul li a{
+
+.footer .row2 ul li a {
     text-decoration: none;
-    color:#5E5E5E;
+    color: #5E5E5E;
 }
-.footer .row2 ul li :link{
-    color:#5E5E5E;
+
+.footer .row2 ul li :link {
+    color: #5E5E5E;
 }
-.footer .row2 ul li :hover{
-    color:#F4773C;
+
+.footer .row2 ul li :hover {
+    color: #F4773C;
 }
 
 .footer .row3 ul span {
